@@ -9,7 +9,7 @@ app.use("/songs", songController);
 
 
 app.get("/", (req, res) => {
-  res.send("Welcome to Tuner");
+  res.send("Took a Break Till 9:30PM :D");
 });
 
 app.get("*", (req, res) => {
